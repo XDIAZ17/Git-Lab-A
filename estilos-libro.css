@@ -10,6 +10,7 @@ h1.titulo-animado {
   font-size: 36px;
   display: inline-block;
   animation: mover 10s linear infinite;
+  margin-bottom: 40px;
 }
 
 @keyframes mover {
@@ -19,28 +20,34 @@ h1.titulo-animado {
 
 .libro {
   display: inline-block;
-  width: 300px;
-  padding: 15px;
+  width: 350px;
+  padding: 20px;
   background: #fff;
   border: 2px solid #ddd;
   border-radius: 10px;
   box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
   margin-top: 20px;
+  line-height: 1.5;
+  text-align: left;
 }
 
-.libro img {
+.libro .portada {
+  display: block;
+  margin: 0 auto 20px auto;
   border-radius: 5px;
-  margin-bottom: 10px;
+  max-width: 100%;
+  height: auto;
 }
 
 .libro h2, .libro h3 {
   color: #222;
+  margin-top: 20px;
 }
 
 .libro p {
   font-size: 14px;
   color: #555;
-  margin: 5px 0;
+  margin: 10px 0;
 }
 
 .libro a {
@@ -48,3 +55,4 @@ h1.titulo-animado {
   text-decoration: none;
   font-weight: bold;
 }
+
