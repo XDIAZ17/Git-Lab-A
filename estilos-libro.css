@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f9;
+  margin: 20px;
+}
+
+h1.titulo-animado {
+  color: darkred;
+  font-size: 36px;
+  display: inline-block;
+  animation: mover 10s linear infinite;
+}
+
+@keyframes mover {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.libro {
+  display: inline-block;
+  width: 300px;
+  padding: 15px;
+  background: #fff;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  margin-top: 20px;
+}
+
+.libro img {
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.libro h2, .libro h3 {
+  color: #222;
+}
+
+.libro p {
+  font-size: 14px;
+  color: #555;
+  margin: 5px 0;
+}
+
+.libro a {
+  color: darkred;
+  text-decoration: none;
+  font-weight: bold;
+}
